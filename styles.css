@@ -20,6 +20,7 @@ body{
 }
 .timer{
     display: flex;  
+    flex-wrap: nowrap;
     line-height: 0; 
     gap: 4em; 
 }
@@ -34,4 +35,10 @@ body{
 }
 .content h1 span{
     color: #ff751a ;
+}
+#seconds{
+    color: #ff751a;
+}
+.sec{
+    color: #ff751a;
 }
